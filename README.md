@@ -40,4 +40,4 @@ The personal learner profile is excluded and was never tracked.
 [32-second demo](docs/incident-brief-demo.mp4) · [recording notes](docs/demo-notes.md) · [submission draft](docs/submission-copy.md).
 
 ![Grouped report](docs/report.jpg)
-Not submitted to Devpost; participant-authored copy, exit survey and final approval remain separate.
+Not submitted to Devpost. Factual AI-assisted copy was requested by the participant; personal exit-survey answers were supplied directly and kept outside this repository. Final participant review remains.
