@@ -1,0 +1,12 @@
+/devpost/learner-profile.md
+.env
+.env.*
+!.env.example
+node_modules/
+artifacts/
+.playwright/
+.claude/
+agent/
+
+
+.agents/
