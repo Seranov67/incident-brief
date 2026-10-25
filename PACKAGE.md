@@ -8,8 +8,9 @@ NOT READY FOR SUBMISSION — registration complete; local implementation verifie
 - [x] Stale export, empty input and HTML-as-text checked.
 - [x] Desktop and 390px responsive layout checked.
 - [x] Common redaction limits documented; no runtime dependencies or paid calls.
-- [ ] Participant hands-on feedback and final review.
-- [ ] Participant learning wrap-up.
+- [x] Participant accepted the current preview ('ок'); no revisions requested.
+- [ ] Detailed participant hands-on exploration not reported.
+- [x] Technical recap and reference app map prepared; no personal learning reflection invented.
 - [ ] Public repository publication (requires separate explicit authorization).
 - [ ] Actual demo recording and accessible video URL.
 - [ ] Participant-authored submission title, description and exit survey.
