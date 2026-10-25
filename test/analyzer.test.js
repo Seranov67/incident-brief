@@ -16,7 +16,7 @@ test('common secrets, URL credentials, emails and IPs are masked',()=>{
  assert.equal(redact('09:00:00'),'09:00:00');
 });
 test('private-key blocks are masked without shifting line references',()=>{
- const r=analyzeLog('-----BEGIN PRIVATE KEY-----\nSYNTHETIC-KEY-DATA\n-----END PRIVATE KEY-----\nERROR failed');
+ const r=analyzeLog('-----BEGIN PRIVATE KEY-----\nSYNTHETIC-KEY-DATA\n-----END PRIVATE KEY-----\nERROR failed'); // gitleaks:allow -- literal synthetic fixture, no encoded key
  assert.ok(!JSON.stringify(r).includes('SYNTHETIC-KEY-DATA'));assert.deepEqual(r.groups.find(g=>g.severity==='error').lines,[4]);
 });
 test('input limits and empty input reject clearly',()=>{

@@ -1,0 +1,21 @@
+name: Verify
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '22.17.1'
+      - run: npm test
+      - name: Record checked revision
+        run: node --input-type=module -e "import{writeFileSync}from'node:fs';writeFileSync('ci-evidence.json',JSON.stringify({tested_sha:process.env.GITHUB_SHA,run_id:process.env.GITHUB_RUN_ID,checks:'PASS'},null,2))"
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: verification-${{ github.sha }}
+          retention-days: 14
+          path: ci-evidence.json

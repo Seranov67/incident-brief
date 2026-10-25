@@ -1,0 +1,2 @@
+# Reviewed synthetic PEM fixture; literal SYNTHETIC-KEY-DATA, no encoded key.
+31d0454a98b27c1bd38b5d3acef0803323987584:test/analyzer.test.js:private-key:19

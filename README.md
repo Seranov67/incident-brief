@@ -1,13 +1,21 @@
-# Incident Brief — local proof of concept
+# Incident Brief
 
-Working technical label, not participant-authored submission copy.
+[![Verify](https://github.com/Seranov67/incident-brief/actions/workflows/verify.yml/badge.svg)](https://github.com/Seranov67/incident-brief/actions/workflows/verify.yml)
+
+Technical documentation for a local log-triage proof of concept.
 
 ## Run
 Node.js 22+. No runtime dependencies or install step.
-Run npm start, then open http://127.0.0.1:4317.
-Run npm test for the built-in Node tests.
 
-Load the synthetic example → Analyze logs → inspect evidence → Download .md.
+```sh
+git clone https://github.com/Seranov67/incident-brief.git
+cd incident-brief
+npm start
+```
+
+Open http://127.0.0.1:4317. Run `npm test` for the Node unit and HTTP integration tests.
+
+Load example → Analyze logs → inspect evidence → Download .md.
 Expected: 6 lines, 2 errors, 1 warning, one repeated timeout group.
 
 ## Behavior and limits
@@ -18,12 +26,18 @@ All input remains in browser memory; editing invalidates export, reload/clear lo
 Raw input stays visible in the editor: use synthetic logs for recordings.
 Pattern matching is not a diagnosis or a comprehensive secret detector. Review exports.
 
-## Provenance
+## Provenance and license
 New code created during Build With AI: Basics 2026 using the official Devpost Learn Skill Pack.
-Scenario and implementation explicitly delegated by the participant; planning artifacts in devpost/.
+Scenario and implementation explicitly delegated by the participant; planning artifacts in [devpost](devpost/).
 AI coding assistance used for planning, implementation and tests. No inference model runs on logs.
 No existing product or factory-starter code reused. No runtime dependencies or external calls.
-Official course material is installed locally and excluded from publication.
+Official course material is installed locally and excluded from publication; provenance is in skills-lock.json.
+The personal learner profile is excluded and was never tracked.
+[MIT license](LICENSE).
 
-## Submission
-Not submitted. Public repository, demo video, participant-authored text and final hands-on review remain.
+## Review materials
+[Package status](PACKAGE.md). [App map](devpost/app-map.html) (open locally).
+[32-second demo](docs/incident-brief-demo.mp4) · [recording notes](docs/demo-notes.md) · [submission draft](docs/submission-copy.md).
+
+![Grouped report](docs/report.jpg)
+Not submitted to Devpost; participant-authored copy, exit survey and final approval remain separate.

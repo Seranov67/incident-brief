@@ -8,7 +8,9 @@ approval_basis: "User explicitly delegated scenario selection and implementation
 Node serves a few fixed local files. The browser reads the pasted text, recognizes explicit log levels, replaces common sensitive patterns, groups repeats, and generates a downloadable report. The server has no log-upload endpoint.
 ## Where It Runs and How Someone Tries It
 Node 22+, npm start, open http://127.0.0.1:4317. npm test runs built-in Node tests. No install step or runtime dependencies.
-A local recording plus public repository is sufficient for later submission; neither exists yet.
+Public source: https://github.com/Seranov67/incident-brief
+License: https://github.com/Seranov67/incident-brief/blob/main/LICENSE
+A local recording is prepared separately; an accessible hosted video URL is still required by Devpost.
 ## Components
 ### Analyzer
 public/analyzer.js exports analyzeLog, redact and toMarkdown. Pure functions, testable with node:test.
