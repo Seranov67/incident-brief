@@ -25,3 +25,7 @@ Source: https://github.com/Seranov67/incident-brief
 License: https://github.com/Seranov67/incident-brief/blob/main/LICENSE
 Review video: https://github.com/Seranov67/incident-brief/blob/main/docs/incident-brief-demo.mp4
 Required YouTube/Vimeo URL: pending upload and verification.
+
+## YouTube update — 2026-10-25
+Demo uploaded by the participant: https://www.youtube.com/watch?v=_Q5n3nrQPvo
+Title: Incident Brief — Local Log Triage Demo; player duration 32 seconds. Public oEmbed metadata resolved without credentials; browser playback observed. This supersedes earlier upload-pending notes. Devpost project details saved as DRAFT, 3/5 steps: About, JavaScript tag, source URL and video URL. Additional info/final review remain; NOT SUBMITTED.

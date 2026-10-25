@@ -30,3 +30,7 @@ Rules checked 2026-10-25: video less than three minutes, working app footage, pu
 ## Participant review checkpoint
 Devpost draft exists with name and pitch saved (2/5 steps); About, tags, source/license links and survey values are prepared in the review package, not all saved to Devpost.
 The participant chose to keep the MP4 for review and not upload to YouTube yet. No video was uploaded; no final submission or eligibility attestations were made during packaging.
+
+## YouTube update — 2026-10-25
+Demo uploaded by the participant: https://www.youtube.com/watch?v=_Q5n3nrQPvo
+Title: Incident Brief — Local Log Triage Demo; player duration 32 seconds. Public oEmbed metadata resolved without credentials; browser playback observed. This supersedes earlier upload-pending notes. Devpost project details saved as DRAFT, 3/5 steps: About, JavaScript tag, source URL and video URL. Additional info/final review remain; NOT SUBMITTED.

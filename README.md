@@ -41,3 +41,7 @@ The personal learner profile is excluded and was never tracked.
 
 ![Grouped report](docs/report.jpg)
 Not submitted to Devpost. Factual AI-assisted copy was requested by the participant; personal exit-survey answers were supplied directly and kept outside this repository. Final participant review remains.
+
+## YouTube update — 2026-10-25
+Demo uploaded by the participant: https://www.youtube.com/watch?v=_Q5n3nrQPvo
+Title: Incident Brief — Local Log Triage Demo; player duration 32 seconds. Public oEmbed metadata resolved without credentials; browser playback observed. This supersedes earlier upload-pending notes. Devpost project details saved as DRAFT, 3/5 steps: About, JavaScript tag, source URL and video URL. Additional info/final review remain; NOT SUBMITTED.

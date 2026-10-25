@@ -43,3 +43,7 @@ No learner uncertainty was reported; no learning claim is fabricated.
 https://nodejs.org/api/http.html
 https://nodejs.org/api/test.html
 https://developer.mozilla.org/en-US/docs/Web/API/Blob
+
+## YouTube update — 2026-10-25
+Demo uploaded by the participant: https://www.youtube.com/watch?v=_Q5n3nrQPvo
+Title: Incident Brief — Local Log Triage Demo; player duration 32 seconds. Public oEmbed metadata resolved without credentials; browser playback observed. This supersedes earlier upload-pending notes. Devpost project details saved as DRAFT, 3/5 steps: About, JavaScript tag, source URL and video URL. Additional info/final review remain; NOT SUBMITTED.
